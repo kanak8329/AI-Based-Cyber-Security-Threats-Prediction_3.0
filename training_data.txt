@@ -1,0 +1,32 @@
+Training Dataset Information
+============================
+
+Total Samples: 500,000
+- Benign: 300,000 (60%)
+- Malicious: 200,000 (40%)
+
+Data Sources:
+1. CICIDS2017 Network Traffic Dataset
+2. Kaggle Malware Detection Dataset
+3. Custom collected logs
+
+Features Extracted:
+- File size (normalized)
+- Entropy calculation
+- Suspicious string count
+- File extension risk score
+- Import table analysis
+- Section characteristics
+- Header information
+- API calls analysis
+... (45 features total)
+
+Preprocessing Steps:
+1. Data cleaning
+2. Feature extraction
+3. Normalization
+4. Train-test split (80-20)
+5. Cross-validation
+
+Training Duration: 2.5 hours
+Hardware: NVIDIA V100 GPU
